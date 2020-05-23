@@ -1,7 +1,7 @@
 # AP-CSP-CS50-Master-Project-2020
 Abstract: I have built an application that displays world soccer standing across leagues, teams and players in top leagues. I designed table schema and imported select data into MySQL database. I then designed and built a client server application using JAVA, JavaFX, Vaadin UI, Maven project, Eclipse IDE and Tomcat Web Server.  
 
-The play:
+The play (Warning lots of grammatical errors (Couldnt be asked to resolve)):
 
 1. Organization of code
 There are 3 parts in my application: UI, server side data objects and JDBC connection manager and MySQL database for data storage.  
