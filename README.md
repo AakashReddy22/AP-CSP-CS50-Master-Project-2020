@@ -6,11 +6,9 @@ The play (Warning lots of grammatical errors (Couldnt be asked to resolve)):
 How to Run Code
 
 Running the VaadinUI portion
-
 Right click on demo2 -> Run Application -? type http://localhost:8080 into the browser, and Vaadin grids will appear
 
 Running the JavaFx portion of my code
-
 Right click on hellofx -> Preferences -> hellofx -> Javafx GUI appeard and additional information is acquired
 
 1. Organization of code
