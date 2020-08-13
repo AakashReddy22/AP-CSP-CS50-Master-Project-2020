@@ -12,7 +12,7 @@ public class TeamDAO {
         Class.forName("com.mysql.jdbc.Driver");
         if(connection==null)
         	// If the connection was cleared already, the program re-establishes the connection with the database
-        	connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/soccerdb", "AppUser", "Welcome@123");
+        	connection = DriverManager.getConnection("Use your own", "Null", "Null");
     }
     
     public void shutdown() throws SQLException {

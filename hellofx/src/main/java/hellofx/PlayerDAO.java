@@ -12,8 +12,7 @@ public class PlayerDAO implements DAO {
     public PlayerDAO() throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.jdbc.Driver");
         if(connection==null)
-        	connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/soccerdb", "AppUser", "Welcome@123");
-    }
+        	
     
     public void shutdown() throws SQLException {
         if (connection != null) {

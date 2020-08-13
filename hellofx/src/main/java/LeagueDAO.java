@@ -13,7 +13,7 @@ public class LeagueDAO{
         Class.forName("com.mysql.jdbc.Driver");
         if(connection==null)
         	// If the connection was cleared already, the program re-establishes the connection with the database
-        	connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/soccerdb", "AppUser", "Welcome@123");
+        	connection = DriverManager.getConnection("Absent for security reasons");
     }
     
     public void shutdown() throws SQLException {
