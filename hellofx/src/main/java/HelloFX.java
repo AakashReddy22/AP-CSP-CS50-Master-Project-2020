@@ -62,7 +62,7 @@ public class HelloFX extends Application {
         String formatText = lambdaCall.returnStrCat();
         // Posting the CopyRight disclaimer at the top of the page once more
         List<String> headerText = new ArrayList<String>();
-        final File file = new File("/Users/Aakas/Desktop/CopyRight.txt");
+        final File file = new File
 	    try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 	    	String fileAsString;
 	    	
@@ -102,7 +102,7 @@ public class HelloFX extends Application {
     	FileInputStream input=null;
 		try {
 			// Getting a picture of an external image, icon in this case, and placing it in the save box
-			input = new FileInputStream("C:/Users/Aakas/Desktop/SaveIcon.png");
+			input = new FileInputStream;
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
 		}
@@ -117,7 +117,7 @@ public class HelloFX extends Application {
         	FileWriter fileWriter;
 			try {
 				// Writing the USer input into UserSubscriptions in JavaFx
-				fileWriter = new FileWriter("C:/Users/Aakas/Desktop/UserSubscriptions.txt", true);
+				fileWriter = new FileWriter;
 				fileWriter.write(textField.getText());
 				fileWriter.write("\n");
 	            fileWriter.close();
